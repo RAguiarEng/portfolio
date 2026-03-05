@@ -1,129 +1,243 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SCTEC - Treinamento</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rodrigo S. Aguiar | Assessor de tecnologia</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
-    <header>
-        <h1>Carreira Tech - Trilha Desenvolvimento de Software</h1>
-        <p>Saiba mais sobre esse treinamento, clicando <a href="https://sctec.scti.sc.gov.br/" target="_blank">aqui</a>.</p>
 
-        <nav> <!-- Seção de navegação do site -->
-            <ul><!-- Lista não ordenada para links do nosso menu. -->
-                <li><a href="#sobre">Sobre mim</a></li>
-                <li><a href="#projeto">Projetos</a></li>
-                <li><a href="#contato">Contato</a></li>
-                <li><a href="https://www.google.com" target="_blank">Google</a></li>
-            </ul>
-        </nav>
-    </header>
+  <!-- ========== NAVBAR ========== -->
+  <header class="navbar">
+    <div class="container navbar__inner">
+      <span class="navbar__logo"><a href="/" target="_self">Início</a></span>
+      <nav class="navbar__links">
+        <a href="quemsou.html">Quem sou</a>
+        <a href="#solucoes">Soluções</a>
+        <a href="#projeto">Projetos</a>
+        <a href="#repositorio">Repositório</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </div>
+  </header>
 
-    <section id="sobre">
-        <h2>Sobre mim</h2>
-        <img src="Perfil_RedesSociais_1080 F_R_media_cortada.png" width="20%" alt="Aguiar" title="Imagem de perfil">
+  <!-- ========== HERO ========== -->
+  <section class="hero">
+    <div class="container hero__inner">
 
-        <article>
-            <p>Olá! Sou Rodrigo. Sou entusiasta de tecnologia e inovação.</p>
-        </article>
+      <img
+        src="images/fotoPerfil_fundoCinza02_511x511.png"
+        alt="Foto de perfil de Rodrigo Aguiar"
+        class="hero__photo"
+      />
 
-        <aside>
-            <h3>Habilidades</h3>
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-            </ul>
-        </aside>
-    </section>
+      <div class="hero__text">
+        <p class="hero__greeting">Olá, me chamo</p>
+        <h1 class="hero__name">Rodrigo Aguiar</h1>
+        <h2 class="hero__role">Assessor de Tecnologia <span style="color: var(--color-line-title)">|</span> Engenheiro Químico</h2>
+        <div class="hero__actions">
+          <a href="#projeto" class="btn btn--primary">Conheça meu trabalho</a>
+          <a href="https://wa.me/5547992704018?text=Olá%20Rodrigo.%20Entro%20em%20contato%20através%20do%20seu%20site." target="_blank" class="btn btn--whatsapp">
+            <i class="fa-brands fa-whatsapp"></i> Fale comigo
+          </a>
+        </div>
+      </div>
 
-    <section id="projeto">
-        <h2>Projetos</h2>
-        <article>
-            <h3>Portfólio</h3>
+    </div>
+  </section>
+
+  <!-- ========== LAYOUT PRINCIPAL ========== -->
+  <div class="container layout">
+
+    <!-- ========== CONTEÚDO PRINCIPAL ========== -->
+    <main class="layout__main">
+
+      <!-- SOLUÇÕES -->
+      <section id="solucoes" class="section">
+        <h2 class="section__title">Soluções</h2>
+
+        <div class="solution__card">
+          <div class="solution__icon"><i class="fa-solid fa-gears"></i></div>
+          <div class="solution__info">
+            <h3>Assessoria em Tecnologia</h3>
             <p>
-                Este foi o primeiro site que desenvolvi durante o curso da SCTEC.
+              Apoio a empresas na adoção de ferramentas digitais, automação de processos
+              e estruturação de fluxos de trabalho. Da análise do
+              problema à entrega da solução.
             </p>
-        </article>
-    </section>
+          </div>
+        </div>
 
-    <section id="habilidades">
-        <h2>Habilidades e tecnologias</h2>
-        <table>
-            <thead>
-                <tr>
-                    <th>Tecnologia</th>
-                    <th>Nível</th>
-                    <th>Descrição</th>
-                </tr>
-            </thead>
+        <div class="solution__card">
+          <div class="solution__icon"><i class="fa-solid fa-flask"></i></div>
+          <div class="solution__info">
+            <h3>Gestão da Qualidade & P&D</h3>
+            <p>
+              Implementação e auditoria de sistemas de gestão conforme ISO 9001 e
+              ISO 17025. Desenvolvimento e validação de métodos analíticos, além
+              de projetos de P&D aplicados à indústria química e de materiais.
+            </p>
+          </div>
+        </div>
 
-            <tbody>
-                <tr>
-                    <td>HTML</td>
-                    <td>Iniciante</td>
-                    <td>Capaz de construir estruturas de páginas web semânticas e responsivas.</td>
-                
-                </tr>
-                    <td>CSS</td>
-                    <td>Intermediário</td>
-                    <td>Experiência com flexbox, grid e animações</td>
-                </tr>
+        <div class="solution__card">
+          <div class="solution__icon"><i class="fa-solid fa-chart-line"></i></div>
+          <div class="solution__info">
+            <h3>Análise de Dados & Relatórios</h3>
+            <p>
+              Tratamento e visualização de dados com Python e Power BI.
+              Geração de relatórios técnicos estruturados, dashboards e modelos
+              estatísticos para suporte à tomada de decisão.
+            </p>
+          </div>
+        </div>
 
-                    <td>JavaScript</td>
-                    <td>Iniciante</td>
-                    <td>Desenvolvimento de scripts no front-end.</td>
-                </tr>
+      </section>
 
-            </tbody>
+      <!-- PROJETOS EM ANDAMENTO -->
+      <section id="projeto" class="section">
+        <h2 class="section__title">Projetos em andamento</h2>
 
-        </table>
-    </section>
+        <div class="project__card">
+          <div class="project__card-body">
+            <div class="project__icon"><i class="fa-solid fa-shop"></i></div>
+            <div class="project__info">
+              <h3>Sistema de Gestão — ERP</h3>
+              <p>
+                Sistema de gestão interna para uma empresa em Jaraguá do Sul. O objetivo
+                principal é controle de Pedidos, com cadastro de Clientes e Funcionários,
+                e gestão financeira.
+              </p>
+              <img
+                src="images/ERP_img01.png"
+                alt="Preview do Sistema de Gestão ERP"
+                class="project__image"
+              />
+              <a href="/" target="_self" class="btn btn--outline">
+                <i class="fa-solid fa-code"></i> Em breve...
+              </a>
+            </div>
+          </div>
+        </div>
 
-    <footer>
-        <p>© 2026 Rodrigo. Todos os direitos reservados.</p>
-        <section id="contato">
-            <h2>Contato</h2>
-            <p>Tem um projeto em mente? Entre em contato comigo!</p>
-            <address>
-                <a href="mailto:raguiar.eng@gmail.com?subject=Contato%20-%20Home&body=Olá%20Rodrigo!"
-                    target="_blank">E-mail</a> |
-                <a
-                    href="https://wa.me/554792704018?text=Olá%20Rodrigo!%20Entro%20em%20contato%20para%20saber%20mais%20sobre%20a%20assessoria.">WhatsApp</a>
+        <div class="project__card">
+          <div class="project__card-body">
+            <div class="project__icon"><i class="fa-solid fa-wallet"></i></div>
+            <div class="project__info">
+              <h3>Gestão Financeira Familiar</h3>
+              <p>
+                Quanto chegará no <a href="https://www.google.com/search?q=ponto+de+breakeven" target="_blank"><i>break even</i></a> de sua casa?<br>
+                Aplicação voltada ao controle de finanças 
+                pessoais e familiares, com registro de receitas e despesas, categorização de 
+                gastos e visualização de relatórios mensais para apoiar decisões financeiras no dia a dia.
+              </p>
+              <a href="/" target="_self" class="btn btn--outline">
+                <i class="fa-solid fa-code"></i> Em breve...
+              </a>
+            </div>
+          </div>
+        </div>
 
-            </address>
-            <br>
-            <form>
-                <label for="nome">Nome: </label>
-                <input type="text" id="nome" name="nome" required>
-                <br>
-                <label for="email">E-mail: </label>
-                <input type="email" id="email" name="email" required>
-                <br>
-                <label for="telefone">Telefone: </label>
-                <input type="tel" id="telefone" name="telefone">
-                <br>
-                <label for="assunto">Assunto: </label>
-                <select name="assunto" id="assunto">
-                    <option value="orcamento">Orçamento</option>
-                    <option value="duvida">Dúvidas</option>
-                    <option value="outro">Outros</option>
-                </select>
-                <br>
-                <label for="mensagem">Mensagem:</label>
-                <textarea name="mensagem" id="mensagem" cols="30" rows="3" required></textarea>
-                <br>
-                <input type="checkbox" id="inscricao" name="inscricao">
-                <label for="inscricao">Desejo receber newsletter por e-mail.</label>
-                <br>
-                <input type="submit" value="Enviar mensagem">
-            </form>
-        </section>
-    </footer>
+      </section>
+
+      <!-- REPOSITÓRIO -->
+      <section id="repositorio" class="section">
+        <h2 class="section__title">Repositório mais recente</h2>
+        <div class="repo__card">
+          <div class="repo__header">
+            <i class="fa-solid fa-graduation-cap"></i>
+            <div>
+              <h3>RAguiarEng / L-System</h3>
+              <span class="repo__tag">Em aprimoramento</span>
+            </div>
+          </div>
+          <p class="repo__desc">
+            Este projeto foi construído para estimular a aprendizagem de STEAM
+            a partir de projetos (PBL).<br>
+            STEAM = <b>C</b>iência + <b>T</b>ecnologia + <b>A</b>rte + <b>M</b>atemática<br>
+            O objetivo é auxiliar jovens a terem um olhar <i>científico</i> e estimular a investigação 
+            através da natureza com a programação.
+          </p>
+          <a href="https://github.com/RAguiarEng/L-system" target="_blank" class="btn btn--primary">
+            <i class="fa-brands fa-github"></i> Acessar repositório
+          </a>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- ========== BARRA LATERAL ========== -->
+    <aside class="layout__sidebar">
+
+      <div class="sidebar__section">
+        <h3 class="sidebar__title">
+          <i class="fa-solid fa-file-circle-check"></i> Gestão & Qualidade
+        </h3>
+        <ul class="sidebar__list">
+          <li>ISO 9001, ISO 17025</li>
+          <li>LIMS e Ansys Granta MI</li>
+        </ul>
+      </div>
+
+      <div class="sidebar__section">
+        <h3 class="sidebar__title">
+          <i class="fa-solid fa-chart-bar"></i> Dados
+        </h3>
+        <ul class="sidebar__list">
+          <li>Python — Pandas, NumPy, Statsmodels, Scikit-Learn</li>
+          <li>Power BI, Matplotlib, Seaborn</li>
+        </ul>
+      </div>
+
+      <div class="sidebar__section">
+        <h3 class="sidebar__title">
+          <i class="fa-solid fa-box-open"></i> Entrega
+        </h3>
+        <ul class="sidebar__list">
+          <li>Git, VS Code, Jupyter</li>
+          <li>LaTeX</li>
+        </ul>
+      </div>
+
+    </aside>
+
+  </div>
+
+  <!-- ========== FOOTER ========== -->
+  <footer id="contato" class="footer">
+    <div class="container footer__inner">
+      <p class="footer__name">Rodrigo S. Aguiar</p>
+      <p class="footer__sub">Assessor em Tecnologia | Engenheiro Químico</p>
+
+      <div class="footer__socials">
+        <a href="https://www.instagram.com/rsaguiarbr/" target="_blank" title="Instagram">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="https://www.facebook.com/SEU_PERFIL_AQUI" target="_blank" title="Facebook">
+          <i class="fa-brands fa-square-facebook"></i>
+        </a>
+        <a href="https://linkedin.com/in/rsouzaaguiar" target="_blank" title="LinkedIn">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/RAguiarEng" target="_blank" title="GitHub">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="https://wa.me/5547992704018?text=Olá%20Rodrigo.%20Entro%20em%20contato%20através%20do%20seu%20site." target="_blank" title="WhatsApp">
+          <i class="fa-brands fa-whatsapp"></i>
+        </a>
+        <a href="mailto:raguiar.eng@gmail.com?subject=Contato%20pelo%20site" title="E-mail">
+          <i class="fa-solid fa-envelope"></i>
+        </a>
+      </div>
+
+      <p class="footer__copy">&copy; 2025 Rodrigo S. Aguiar · Jaraguá do Sul, SC</p>
+    </div>
+  </footer>
 
 </body>
-
 </html>
