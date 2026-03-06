@@ -14,13 +14,14 @@
   --color-surface:   #ffffff;
   --color-border:    #e4e7ec;
   --color-border-subtle: #f0f0f0;
-  --color-line-title: #9ca3af;;
+  --color-line-title: #9ca3af;
   --color-primary:   #2563eb;
   --color-primary-h: #1d4ed8;
   --color-accent:    #7c3aed;
   --color-whatsapp:  #25d366;
   --color-text:      #374151;
   --color-muted:     #6b7280;
+  --color-footer-muted:     #b6bac2;
   --color-heading:   #111827;
 
   --font-main: 'Inter', sans-serif;
@@ -503,7 +504,7 @@ img {
 
 .footer__copy {
   font-size: 0.78rem;
-  color: var(--color-border);
+  color: var(--color-footer-muted);
   margin-top: 6px;
 }
 
@@ -791,7 +792,7 @@ img {
 .age-bar__fill {
   height: 100%;
   background-color: var(--color-primary);
-  border-radius: 3px;
+  border-radius: 3px 0 0 3px;
   transition: width 1s ease;
 }
 
