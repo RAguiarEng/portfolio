@@ -53,9 +53,9 @@ Este site está hospedado utilizando [GitHub Pages](https://pages.github.com/).
 
 Sinta-se à vontade para entrar em contato para oportunidades de colaboração, dúvidas ou para discutir projetos:
 
-- **LinkedIn:** [Rodrigo Aguiar](https://linkedin.com/in/rsouzaaguiar/)
-- **WhatsApp:** [+55 47 99270-4018](https://wa.me/5547992704018?text=Olá%20Rodrigo.%20Entro%20em%20contato%20através%20do%20seu%20GitHub.)
-- **E-mail:** [raguiar.eng@gmail.com](mailto:raguiar.eng@gmail.com?subject=Contato%20pelo%20GitHub  )
+- [**LinkedIn:**](https://linkedin.com/in/rsouzaaguiar/)
+- [**WhatsApp:**](https://wa.me/5547992704018?text=Olá%20Rodrigo.%20Entro%20em%20contato%20através%20do%20seu%20GitHub.)
+- [**E-mail:**](mailto:raguiar.eng@gmail.com?subject=Contato%20pelo%20GitHub  )
 
 ## 📄 Licença
 
