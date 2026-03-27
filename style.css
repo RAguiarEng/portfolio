@@ -195,21 +195,6 @@ img {
   /* Garante que o botão fique acima do menu quando aberto */
 }
 
-.navbar__links {
-  display: flex;
-  gap: 28px;
-}
-
-.navbar__links a {
-  font-size: 0.88rem;
-  color: var(--color-muted);
-  transition: color var(--transition);
-}
-
-.navbar__links a:hover {
-  color: var(--color-heading);
-}
-
 /* ============================================
    HERO
    ============================================ */
