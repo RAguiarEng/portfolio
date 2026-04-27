@@ -21,6 +21,7 @@
   --color-primary-h: #1d4ed8;
   --color-accent: #7c3aed;
   --color-whatsapp: #25d366;
+  --color-whatsapp-h: #1ebe5a;
   --color-text: #374151;
   --color-muted: #6b7280;
   --color-footer-muted: #b6bac2;
@@ -135,7 +136,7 @@ img {
 }
 
 .btn--whatsapp:hover {
-  background-color: #1ebe5a;
+  background-color: var(--color-whatsapp-h);
 }
 
 /* ============================================
