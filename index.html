@@ -142,56 +142,57 @@
         </div>
       </section>
 
-      <!-- PROJETOS EM ANDAMENTO -->
+      <!-- PROJETO -->
       <section id="projeto" class="section">
-        <h2 class="section__title">Projetos em andamento</h2>
+        <h2 class="section__title">Projetos</h2>
 
         <div class="project__card">
           <div class="project__card-body">
             <div class="project__icon"><i class="fa-solid fa-shop"></i></div>
             <div class="project__info">
-              <h3>Sistema de Gestão — ERP</h3>
+              <!-- Cabeçalho com Título e Status -->
+              <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; margin-bottom: 1rem;">
+                <h3 style="margin: 0;">Sistema de Gestão — ERP</h3>
+                <span class="btn btn--outline" style="pointer-events: none; padding: 0.25rem 0.75rem; font-size: 0.85rem;">
+                  <i class="fa-solid fa-check-double"></i> Em produção
+                </span>
+              </div>
+              
+              <!-- Descrição -->
               <p>
                 Sistema de gestão interna para uma empresa em Jaraguá do Sul. O objetivo
-                principal é controle de Pedidos, com cadastro de Clientes e Funcionários,
+                principal é controle de Pedidos, com cadastro de Clientes e Fornecedores,
                 e gestão financeira.
               </p>
-              <img src="images/ERP_img01.png" alt="Preview do Sistema de Gestão ERP" class="project__image" />
-              <a href="/" class="btn btn--outline">
-                <i class="fa-solid fa-code"></i> Em andamento
-              </a>
-            </div>
-          </div>
-        </div>
+              
+              <!-- Imagem de Destaque -->
+              <img src="images/ERP_img01.png" alt="Preview do Sistema de Gestão ERP" class="project__image" style="margin: 1.5rem 0; width: 100%; border-radius: 8px;" />
+              
+              <!-- Tecnologias -->
+              <div class="project__techs" style="margin-bottom: 1.5rem;">
+                <h4 style="margin-bottom: 0.5rem; font-size: 1rem;">Tecnologias utilizadas:</h4>
+                <ul style="padding-left: 1.25rem; font-size: 0.95rem;">
+                  <li><strong>Backend:</strong> Django</li>
+                  <li><strong>Frontend:</strong> HTML, CSS, JavaScript, Bootstrap 5</li>
+                  <li><strong>Banco de dados:</strong> SQLite (dev) / PostgreSQL (produção)</li>
+                  <li><strong>Infraestrutura:</strong> Ubuntu VPS, Nginx, Gunicorn, SSL Let's Encrypt</li>
+                </ul>
+              </div>
 
-        <div class="project__card">
-          <div class="project__card-body">
-            <div class="project__icon"><i class="fa-solid fa-wallet"></i></div>
-            <div class="project__info">
-              <h3>Gestão Financeira Familiar</h3>
-              <p>
-                Quanto chegará no <a href="https://www.google.com/search?q=ponto+de+breakeven" target="_blank"
-                  rel="noopener noreferrer"><i>Ponto
-                    de Equilíbrio</i></a> de sua casa?<br>
-                Aplicação voltada ao controle de finanças
-                pessoais e familiares, com registro de receitas e despesas, categorização de
-                gastos e visualização de relatórios mensais para apoiar decisões financeiras no dia a dia.<br>
-                Controle o fluxo financeiro de sua casa com estratégias empresariais e passe a ter <b>saldo positivo</b>
-                todo mês,
-                maior que suas despesas.
-              </p>
-              <a href="/" class="btn btn--outline">
-                <i class="fa-solid fa-code"></i> Em andamento
-              </a>
+              <!-- Rodapé do Card -->
+              <small style="color: var(--color-text-muted, #666); display: block; margin-top: 1rem;">
+                Desenvolvido e implantado no primeiro semestre de 2026.
+              </small>
             </div>
           </div>
         </div>
 
       </section>
 
+
       <!-- REPOSITÓRIO -->
       <section id="repositorio" class="section">
-        <h2 class="section__title">Projeto Educacional</h2>
+        <h2 class="section__title">Repositório</h2>
 
         <div class="repo__card">
           <div class="repo__header">
@@ -304,6 +305,9 @@
         </a>
         <a href="https://www.facebook.com/raguiar.eng/" target="_blank" rel="noopener noreferrer" title="Facebook">
           <i class="fa-brands fa-square-facebook"></i>
+        </a>
+        <a href="https://github.com/RAguiarEng" target="_blank" rel="noopener noreferrer" title="GitHub">
+          <i class="fa-brands fa-github"></i>
         </a>
         <a href="https://linkedin.com/in/rsouzaaguiar/" target="_blank" rel="noopener noreferrer" title="LinkedIn">
           <i class="fa-brands fa-linkedin"></i>
