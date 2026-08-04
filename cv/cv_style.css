@@ -1,0 +1,84 @@
+@page {
+  size: A4;
+  margin: 2cm 2.2cm;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  font-size: 10.5pt;
+  color: #1f2937;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 18pt;
+  color: #111827;
+  margin-bottom: 2px;
+}
+
+h2.role {
+  font-size: 11pt;
+  font-weight: normal;
+  color: #4b5563;
+  margin-bottom: 8px;
+}
+
+.contact-line {
+  font-size: 9pt;
+  color: #4b5563;
+  margin-bottom: 16px;
+}
+
+.contact-line a {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+h3.section-title {
+  font-size: 10.5pt;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #6b7280;
+  border-bottom: 1px solid #d1d5db;
+  padding-bottom: 3px;
+  margin: 16px 0 8px;
+}
+
+.entry {
+  margin-bottom: 10px;
+}
+
+.entry-header {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 10.5pt;
+  color: #111827;
+}
+
+.entry-period {
+  font-weight: normal;
+  font-size: 9.5pt;
+  color: #6b7280;
+}
+
+ul {
+  padding-left: 16px;
+  margin-top: 4px;
+}
+
+li {
+  margin-bottom: 3px;
+  font-size: 10pt;
+}
+
+p {
+  font-size: 10pt;
+  margin-bottom: 6px;
+}
