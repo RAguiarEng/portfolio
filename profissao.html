@@ -38,17 +38,28 @@
     <!-- ========== NAVBAR ========== -->
     <header class="navbar">
         <div class="container navbar__inner">
-            <span class="navbar__logo"><a href="/">Início</a></span>
+            <span class="navbar__logo"><a href="index.html">Início</a></span>
+
+        <!-- SELETOR DE IDIOMAS -->
+        <div class="lang-selector">
+            <a href="index.html" title="Português" class="lang-selector__link lang-selector__link--active">
+            <img src="https://flagcdn.com/w40/br.png" srcset="https://flagcdn.com/w80/br.png 2x" alt="Português" class="lang-selector__flag">
+            </a>
+            <a href="en/index.html" title="Inglês" class="lang-selector__link">
+            <img src="https://flagcdn.com/w40/us.png" srcset="https://flagcdn.com/w80/us.png 2x" alt="Inglês" class="lang-selector__flag">
+            </a>
+        </div>
+        <!-- FIM SELETOR DE IDIOMAS -->
+
             <button class="navbar__toggle" aria-label="Abrir menu de navegação">
                 <i class="fa-solid fa-bars"></i>
             </button>
             <nav class="navbar__links">
                 <a href="profissao.html" class="navbar__link--active">Atuação</a>
                 <!-- Note a classe 'navbar__link--active' aqui -->
-                <a href="/#solucoes">Soluções</a>
-                <a href="/#projeto">Projetos</a>
-                <a href="/#repositorio">Repositório</a>
-                <a href="#contato">Contato</a>
+                <a href="index.html#projeto">Projetos</a>
+                <a href="index.html#repositorio">Repositório</a>
+                <a href="index.html#contato">Contato</a>
             </nav>
         </div>
     </header>
@@ -204,34 +215,6 @@
         <!-- ========== BARRA LATERAL ========== -->
         <aside class="layout__sidebar">
 
-            <div class="sidebar__section">
-                <h3 class="sidebar__title">
-                    <i class="fa-solid fa-circle-user"></i> Pessoal
-                </h3>
-                <ul class="sidebar__list">
-                    <li>
-                        <!-- BARRA DE IDADE -->
-                        <div class="age-bar__wrapper">
-                            <div class="age-bar__labels">
-                                <span id="age-current"></span>
-                                <span id="age-next"></span>
-                            </div>
-                            <div class="age-bar__track">
-                                <div class="age-bar__fill" id="age-fill"></div>
-                                <div class="age-bar__ticks">
-                                    <span></span><span></span><span></span>
-                                    <span></span><span></span><span></span>
-                                    <span></span><span></span><span></span>
-                                    <span></span><span></span><span></span>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li><i class="fa-solid fa-baby"></i><a href="https://www.google.com/search?q=montes+claros+mg"
-                            target="_blank" rel="noopener noreferrer"> Montes Claros - MG</a></li>
-                </ul>
-            </div>
-
             <!-- Gestão e Qualidade -->
             <div class="sidebar__section">
                 <h3 class="sidebar__title">
@@ -320,8 +303,6 @@
         </div>
 
     </footer>
-
-    <script src="js/script_idade.js"></script>
 
     <!-- Link para o arquivo JavaScript -->
     <script src="js/script_hamburguer.js"></script>

@@ -1,69 +1,69 @@
-# 🌟 Rodrigo S. Aguiar | Portfólio & Consultoria
+# Rodrigo S. Aguiar | Portfolio & Consulting
 
-> **Transformando desafios complexos em soluções eficientes através de Engenharia e Tecnologia.**
+> **Turning complex challenges into efficient solutions through Engineering and Technology.**
 
-Bem-vindo ao repositório do meu portfólio pessoal e site de consultoria! Aqui você encontra o código-fonte por trás da minha presença digital, onde apresento minhas habilidades, projetos e serviços como **Assessor de Tecnologia** e **Engenheiro Químico**.
+Welcome to the repository of my personal portfolio and consulting website! Here you will find the source code behind my digital presence, where I showcase my skills, projects, and services as a **Technology Advisor** and **Chemical Engineer**.
 
-🌐 **Acesse o site ao vivo:** [raguiar.eng.br](https://raguiar.eng.br)
+🌐 **Visit the live site:** [raguiar.eng.br](https://raguiar.eng.br/en)
 
 ---
 
-## 🚀 O Propósito do Projeto
+## 🚀 Project Purpose
 
-Este site foi desenhado para ser mais do que um simples currículo. Ele é um espaço dinâmico focado em:
+This site is designed to be more than just a résumé. It is a dynamic space focused on:
 
-- 💼 **Apresentar Soluções:** Detalhar serviços de assessoria em tecnologia, gestão da qualidade, P&D e análise de dados.
-- 🛠️ **Exibir Projetos:** Destacar trabalhos em andamento e casos de sucesso, demonstrando valor prático.
-- 📚 **Compartilhar Conhecimento:** Uma curadoria de ferramentas, tecnologias e certificações no meu "Repositório".
-- 🤝 **Conexão:** Facilitar o contato direto com clientes, parceiros e colaboradores.
+- 💼 **Showcase Solutions:** Detail consulting services in technology, quality management, R&D, and data analysis.
+- 🛠️ **Display Projects:** Highlight ongoing work and success cases, demonstrating practical value.
+- 📚 **Share Knowledge:** Curate tools, technologies, and certifications in my "Repository".
+- 🤝 **Connect:** Facilitate direct contact with clients, partners, and collaborators.
 
-## ✨ Destaques da Interface
+## ✨ Interface Highlights
 
-- **Design Responsivo & Acessível:** Interface pensada para se adaptar perfeitamente a dispositivos móveis, tablets e desktops.
-- **Seção "Quem Sou":** Uma narrativa clara sobre minha trajetória profissional e acadêmica.
-- **Micro-interações:** Funcionalidades dinâmicas em JavaScript para uma experiência de usuário (UX) fluida e engajadora.
+- **Responsive & Accessible Design:** Interface designed to adapt seamlessly to mobile devices, tablets, and desktops.
+- **"Who I Am" Section:** A clear narrative about my professional and academic journey.
+- **Micro-interactions:** Dynamic features in JavaScript for a smooth and engaging user experience (UX).
 
-## 🛠️ Stack Tecnológico
+## 🛠️ Technology Stack
 
-Desenvolvido com foco em performance e simplicidade, utilizando tecnologias web padrão e modernas:
+Developed with a focus on performance and simplicity, using standard and modern web technologies:
 
-- **HTML5:** Semântica estruturada para melhor acessibilidade e SEO.
-- **CSS3:** Estilização responsiva com variáveis para consistência visual.
-- **JavaScript (ES6+):** Lógica de interface e elementos dinâmicos (ex: cálculos e animações simples).
-- **Tipografia & Ícones:** Integração com _Google Fonts (Inter)_ para legibilidade premium e _Font Awesome_ para iconografia.
+- **HTML5:** Semantic structure for improved accessibility and SEO.
+- **CSS3:** Responsive styling with variables for visual consistency.
+- **JavaScript (ES6+):** Logic for interface and dynamic elements (e.g., simple calculations and animations).
+- **Typography & Icons:** Integration with _Google Fonts (Inter)_ for premium readability and _Font Awesome_ for iconography.
 
-## ⚙️ Como Executar Localmente
+## ⚙️ How to Run Locally
 
-Quer explorar o código ou rodar o projeto na sua máquina? É muito simples:
+Want to explore the code or run the project on your machine? It's very simple:
 
-1. **Clone este repositório:**
+1. **Clone this repository:**
    ```bash
    git clone https://github.com/RAguiarEng/portfolio.git
    ```
-2. **Acesse a pasta do projeto:**
+2. **Navigate to the project folder:**
    ```bash
    cd portfolio
    ```
-3. **Inicie a aplicação:**
-   Basta abrir o arquivo `index.html` em qualquer navegador moderno (Chrome, Firefox, Edge, Safari). Não é necessário configurar um servidor local para visualizar o conteúdo estático!
+3. **Start the application:**
+   Simply open the `index.html` file in any modern browser (Chrome, Firefox, Edge, Safari). No need to set up a local server to view static content!
 
-## 🌐 Deploy
+## 🌐 Deployment
 
-O projeto é mantido e distribuído de forma contínua através do **[GitHub Pages](https://pages.github.com/)**, garantindo alta disponibilidade e performance.
+The project is continuously maintained and distributed through **[GitHub Pages](https://pages.github.com/)**, ensuring high availability and performance.
 
-## 📞 Vamos Conversar?
+## 📞 Let's Talk?
 
-Se você busca soluções em tecnologia, automação de processos, ou quer discutir uma ideia inovadora, sinta-se à vontade para entrar em contato:
+If you're looking for technology solutions, process automation, or want to discuss an innovative idea, feel free to get in touch:
 
-- 🔗 [**LinkedIn**](https://linkedin.com/in/rsouzaaguiar/) - Conecte-se comigo
-- 💬 [**WhatsApp**](https://wa.me/5547992704018?text=Olá%20Rodrigo.%20Entro%20em%20contato%20através%20do%20seu%20GitHub.) - Resposta rápida
-- ✉️ [**E-mail**](mailto:raguiar.eng@gmail.com?subject=Contato%20pelo%20GitHub) - raguiar.eng@gmail.com
-
----
-
-### 📄 Licença
-
-Este projeto é open-source e está sob a **Licença MIT**. Sinta-se livre para estudar o código e usá-lo como inspiração. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+- 🔗 [**LinkedIn**](https://linkedin.com/in/rsouzaaguiar/) - Connect with me
+- 💬 [**WhatsApp**](https://wa.me/5547992704018?text=Hello%20Rodrigo.%20I%20am%20contacting%20you%20through%20your%20website.) - Quick response
+- ✉️ [**Email**](mailto:raguiar.eng@gmail.com?subject=Contact%20via%20website) - raguiar.eng@gmail.com
 
 ---
-*Desenvolvido com ☕ e dedicação por Rodrigo S. Aguiar.*
+
+### 📄 License
+
+This project is open-source and is licensed under the **MIT License**. Feel free to study the code and use it as inspiration. See the [LICENSE](LICENSE) file for more details.
+
+---
+*Created with ☕ and dedication by Rodrigo S. Aguiar.*

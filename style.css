@@ -196,6 +196,50 @@ img {
   /* Garante que o botão fique acima do menu quando aberto */
 }
 
+/* =========================================
+   LANGUAGE SELECTOR
+========================================= */
+.lang-selector {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-left: auto; /* Empurra o seletor para a direita se houver espaço */
+  margin-right: 20px; /* Espaço entre as bandeiras e o menu hamburguer (mobile) ou links (desktop) */
+}
+
+.lang-selector__link {
+  display: inline-flex;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+  opacity: 0.6; /* Deixa a bandeira não-selecionada um pouco mais apagada */
+}
+
+.lang-selector__link:hover {
+  transform: translateY(-2px); /* Efeito de elevação ao passar o mouse */
+  opacity: 0.9;
+}
+
+.lang-selector__link--active {
+  opacity: 1; /* A bandeira do idioma atual fica com 100% de opacidade */
+  pointer-events: none; /* Desativa o clique na bandeira do idioma que já está aberto */
+}
+
+.lang-selector__flag {
+  width: 24px; /* Tamanho da bandeira */
+  height: auto;
+  border-radius: 3px; /* Cantos levemente arredondados */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15); /* Sombra sutil para destacar do fundo */
+  object-fit: cover;
+}
+
+/* Ajuste Mobile: Se precisar diminuir margens em telas menores */
+@media (max-width: 768px) {
+  .lang-selector {
+    margin-right: 15px;
+    gap: 10px;
+  }
+}
+
+
 /* ============================================
    HERO
    ============================================ */
