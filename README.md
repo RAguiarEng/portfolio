@@ -55,7 +55,7 @@ The project is continuously maintained and distributed through **[GitHub Pages](
 
 If you're looking for technology solutions, process automation, or want to discuss an innovative idea, feel free to get in touch:
 
-- 🔗 [**LinkedIn**](https://linkedin.com/in/rsouzaaguiar/) - Connect with me
+- 🔗 [**LinkedIn**](https://www.linkedin.com/in/rsouzaaguiar/?locale=en-US) - Connect with me
 - 💬 [**WhatsApp**](https://wa.me/5547992704018?text=Hello%20Rodrigo.%20I%20am%20contacting%20you%20through%20your%20website.) - Quick response
 - ✉️ [**Email**](mailto:raguiar.eng@gmail.com?subject=Contact%20via%20website) - raguiar.eng@gmail.com
 
