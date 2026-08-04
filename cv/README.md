@@ -9,7 +9,10 @@ This document serves two purposes: it documents the technical process for my own
 Instead of manually editing a Word or Google Docs file every time the resume needs to be updated, the content is kept in simple HTML files. Any text update is made once, and the PDF is automatically regenerated with a single command, ensuring visual consistency and fast iteration.
 
 ## File Structure
-/portfolio /cv cv_pt.html -> Resume content in Portuguese cv_en.html -> Resume content in English cv_style.css -> Print-optimized stylesheet (A4) gerar_cv.py -> Python script that converts the HTML files into PDF.
+- [cv_pt.html](cv_pt.html) -> Resume content in Portuguese 
+- [cv_en.html](cv_en.html) -> Resume content in English
+- [cv_style.css](cv_style.css) -> Print-optimized stylesheet (A4)
+- [gerar_cv.py](gerar_cv.py) -> Python script that converts the HTML files into PDF.
 
 ## Prerequisites
 
@@ -90,7 +93,11 @@ Therefore, replace my name by yours at [gerar_cv.py](gerar_cv.py).
 
 ## Tech Stack
 
-`Python` · `WeasyPrint` · `HTML5` · `CSS3` · `MSYS2` · `Pango`
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![WeasyPrint](https://img.shields.io/badge/WeasyPrint-orange?style=for-the-badge)
+![MSYS2](https://img.shields.io/badge/MSYS2-6D8086?style=for-the-badge&logo=msys2&logoColor=white)
 
 ## References
 
