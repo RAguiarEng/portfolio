@@ -1,0 +1,62 @@
+# robots.txt — raguiar.eng.br
+# Atualizado em: 2026-10-24
+
+# ──────────────────────────────────────────────
+# Rastreadores convencionais (Google, Bing, etc.)
+# ──────────────────────────────────────────────
+User-agent: *
+Allow: /
+Disallow: /cv/
+Disallow: /pages/Pc4Zq1SRg5Pk.html
+Disallow: /.git/
+Disallow: /.github/
+Disallow: /.venv/
+
+# ──────────────────────────────────────────────
+# Robôs de IA — permissão explícita
+# ──────────────────────────────────────────────
+
+# OpenAI (ChatGPT, SearchGPT)
+User-agent: GPTBot
+Allow: /
+
+# OpenAI — rastreador de busca (SearchGPT)
+User-agent: OAI-SearchBot
+Allow: /
+
+# Anthropic (Claude)
+User-agent: anthropic-ai
+Allow: /
+
+# Anthropic — rastreador web
+User-agent: ClaudeBot
+Allow: /
+
+# Google (Gemini / Search Generative Experience)
+User-agent: Google-Extended
+Allow: /
+
+# Meta (Llama, Meta AI)
+User-agent: FacebookBot
+Allow: /
+
+# Perplexity AI
+User-agent: PerplexityBot
+Allow: /
+
+# Common Crawl (base de dados usada por LLMs)
+User-agent: CCBot
+Allow: /
+
+# Cohere
+User-agent: cohere-ai
+Allow: /
+
+# Apple (Applebot-Extended)
+User-agent: Applebot-Extended
+Allow: /
+
+# ──────────────────────────────────────────────
+# Sitemap
+# ──────────────────────────────────────────────
+Sitemap: https://raguiar.eng.br/sitemap.xml

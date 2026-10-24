@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- ========== PORTUGUÊS (PT-BR) ========== -->
+
+  <!-- Página principal -->
+  <url>
+    <loc>https://raguiar.eng.br/</loc>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://raguiar.eng.br/"/>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://raguiar.eng.br/en/"/>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Carreira / Profissão -->
+  <url>
+    <loc>https://raguiar.eng.br/profissao.html</loc>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://raguiar.eng.br/profissao.html"/>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://raguiar.eng.br/en/career.html"/>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- ========== ENGLISH (EN) ========== -->
+
+  <!-- Home (EN) -->
+  <url>
+    <loc>https://raguiar.eng.br/en/</loc>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://raguiar.eng.br/en/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://raguiar.eng.br/"/>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Career (EN) -->
+  <url>
+    <loc>https://raguiar.eng.br/en/career.html</loc>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://raguiar.eng.br/en/career.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://raguiar.eng.br/profissao.html"/>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+</urlset>
