@@ -686,6 +686,18 @@ img {
 /* ============================================
    SOBRE — PARÁGRAFOS
    ============================================ */
+.about__intro {
+  display: flow-root;
+}
+
+.about__logo {
+  float: left;
+  width: 30%;
+  max-width: 120px;
+  height: auto;
+  margin: 0.3rem 1.25rem 0.75rem 0;
+}
+
 .about__paragraph {
   font-size: 0.95rem;
   color: var(--color-text);
